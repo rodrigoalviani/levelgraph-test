@@ -25,6 +25,15 @@ Return:
 ### GET /
 Get list of graphs
 
+Possible querystring:
+```
+	subject: String
+	predicate: String
+	object: String
+
+	Ex: http://localhost:3000/?subject=John&predicate=like or http://localhost:3000/?predicate=like
+```
+
 Return:
 ```
 {
